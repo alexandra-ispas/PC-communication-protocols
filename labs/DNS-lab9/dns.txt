@@ -1,0 +1,120 @@
+(base) alexandra@alexandra:~/Desktop/2sem2/PC/labs/lab9$ dig A single-v4.protocoale.xyz
+
+; <<>> DiG 9.16.6-Ubuntu <<>> A single-v4.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24942
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single-v4.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+single-v4.protocoale.xyz. 263	IN	A	91.195.240.94
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Vi mai 07 13:46:23 EEST 2021
+;; MSG SIZE  rcvd: 69
+
+
+(base) alexandra@alexandra:~/Desktop/2sem2/PC/labs/lab9$ dig A single.protocoale.xyz
+
+; <<>> DiG 9.16.6-Ubuntu <<>> A single.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51984
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;single.protocoale.xyz.		IN	A
+
+;; ANSWER SECTION:
+single.protocoale.xyz.	300	IN	A	91.195.240.94
+
+;; Query time: 104 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Vi mai 07 13:46:49 EEST 2021
+;; MSG SIZE  rcvd: 66
+
+(base) alexandra@alexandra:~/Desktop/2sem2/PC/labs/lab9$ dig A multi-v4.protocoale.xyz
+
+; <<>> DiG 9.16.6-Ubuntu <<>> A multi-v4.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56269
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v4.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+multi-v4.protocoale.xyz. 300	IN	A	91.195.240.94
+
+;; Query time: 104 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Vi mai 07 13:47:32 EEST 2021
+;; MSG SIZE  rcvd: 68
+
+(base) alexandra@alexandra:~/Desktop/2sem2/PC/labs/lab9$  dig A protocoale.protocoale.xyz
+
+; <<>> DiG 9.16.6-Ubuntu <<>> A protocoale.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43523
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;protocoale.protocoale.xyz.	IN	A
+
+;; ANSWER SECTION:
+protocoale.protocoale.xyz. 300	IN	A	91.195.240.94
+
+;; Query time: 36 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Vi mai 07 13:48:49 EEST 2021
+;; MSG SIZE  rcvd: 70
+
+(base) alexandra@alexandra:~/Desktop/2sem2/PC/labs/lab9$ dig AAAA multi-v6.protocoale.xyz
+
+; <<>> DiG 9.16.6-Ubuntu <<>> AAAA multi-v6.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38316
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi-v6.protocoale.xyz.	IN	AAAA
+
+;; Query time: 96 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Vi mai 07 13:49:05 EEST 2021
+;; MSG SIZE  rcvd: 52
+
+(base) alexandra@alexandra:~/Desktop/2sem2/PC/labs/lab9$ dig AAAA multi.protocoale.xyz
+
+; <<>> DiG 9.16.6-Ubuntu <<>> AAAA multi.protocoale.xyz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 657
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;multi.protocoale.xyz.		IN	AAAA
+
+;; Query time: 44 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Vi mai 07 13:49:27 EEST 2021
+;; MSG SIZE  rcvd: 49
